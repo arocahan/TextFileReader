@@ -13,7 +13,7 @@ public class App {
         TextDocumentReader objectForExample = new TextDocumentReader();
 
 
-//One way to read the document.
+//One way to read the document
         File document = new File("C:\\Users\\CHARROC\\Desktop\\20200826.log");
         Scanner inFile = new Scanner(document);
         Scanner inFileSeparate = inFile.useDelimiter("2020.08.26");
@@ -24,7 +24,7 @@ public class App {
         }
 
 
-//Another way to read the document.
+//Another way to read the document
         FileReader fr = new FileReader("C:\\Users\\CHARROC\\Desktop\\20200826.log");
         BufferedReader br = new BufferedReader(fr);
 
